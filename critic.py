@@ -17,5 +17,4 @@ def critic(x,y,w,h,j):
         count.append(0)
         critique=False
         
-    return critique
-
+    
