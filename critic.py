@@ -3,7 +3,7 @@ critique=0
 
 def critic(x,y,w,h,j):
     global count,critique
-    if w>100 or h>100 or w*h>1500 :   c=True        #Limits will be set depending on conveyer material    
+    if w>100 or h>100 or w*h>3000 :   c=True        #Limits will be set depending on conveyer material    
     else:   c=False
           
     if c==True:                                     #critic on two successive frames->critique = true
@@ -18,3 +18,5 @@ def critic(x,y,w,h,j):
         critique=False
         
     
+critic(12,12,11,10,2)
+print(count)
