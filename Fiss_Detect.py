@@ -2,7 +2,6 @@ import torch
 import cv2 as cv
 import pandas as pd
 import critic
-import templist
 import time
 
 X,Y,W,H,IMG,TIME=[],[],[],[],[],[]
@@ -11,10 +10,10 @@ idimg=0
 
 
 model = torch.hub.load('yolov5-master', 'custom',
-path='yolov5-master\models\MODEL_V2.pt', source='local',force_reload=True)    #loading the custom model
+path='yolov5-master\models\MODEL_V3.pt', source='local',force_reload=True)    #loading the custom model
 
 
-cap = cv.VideoCapture(0)
+cap = cv.VideoCapture('WIN_20221114_21_14_52_Pro.mp4')
 while True:
     # Capture frame-by-frame
     ret, frame = cap.read()

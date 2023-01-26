@@ -1,8 +1,21 @@
 
+# REQUIREMENTS
+
+### yolov5 requirements:
+
+The requirements file can be found inside the yolov5-master file, 
+you can run it using the command : pip install -r requirements.txt
+
+#### Fissure detection script requirement:
+
+The requirements file can be found inside the main file, 
+you can run it using the command : pip install -r requirements.txt
+
+
+
 # FUNCTIONS
 
-## templist
-Templist(x,y,w,h) is a function that takes four arguments(Coordinates and dimensions) and returns a list(l1) of coordinate lists(lj)
+
 
 ## critic
 Critic(x,y,w,h,j) is a function that takes five arguments (Coordinates, dimensions and frame number) and returns critique as True if the fissure is considered critic (Rules by a set of conditions) or False if it is not.
