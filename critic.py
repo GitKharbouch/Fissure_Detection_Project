@@ -18,5 +18,3 @@ def critic(x,y,w,h,j):
         critique=False
         
     
-critic(12,12,11,10,2)
-print(count)
