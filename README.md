@@ -1,6 +1,10 @@
+# Contents
 
-
-
+    - The main file is Fiss_Detect.py running this file achieves the function of this project,it calls for two functions
+    Notify.py and critic.py explained in the FUNCTIONS section.
+    - yolov5-master is the yolo file to make our custom model work.
+    - data contains the images of critic fissures that get saved while the program is running, an excel file containing 
+    data about the fissures detected(coordinates,dimensions,time...),and a test video of our model.
 
 
 # REQUIREMENTS

@@ -49,11 +49,11 @@ while True:
             critic.critic(X[i],Y[i],W[i],H[i],CONF,i)   #check if critic before storing the data
             
             
-            if critic.critique == True:
+            if critic.critique == True:     #if the fissure detected is considered critic
                
-               cv.imwrite('data/images/{}.jpg'.format(idimg),frame)
+               cv.imwrite('data/images/{}.jpg'.format(idimg),frame)     #save the fissure image
                idimg=idimg+1  
-               new_row={'X':X[i],'Y':Y[i],'W':W[i],'H':H[i],'IMG_ID':IMG[i],'Confidence':CONF[i],'TIME':TIME[i]}
+               new_row={'X':X[i],'Y':Y[i],'W':W[i],'H':H[i],'IMG_ID':IMG[i],'Confidence':CONF[i],'TIME':TIME[i]}    #add coordinates to df
                data=data.append(new_row,ignore_index=True)
                data.to_excel('data\Fissure_data.xlsx')
                
