@@ -1,4 +1,8 @@
 
+
+
+
+
 # REQUIREMENTS
 
 ### yolov5 requirements:
@@ -6,7 +10,7 @@
 The requirements file can be found inside the yolov5-master file, 
 you can run it using the command : pip install -r requirements.txt
 
-#### Fissure detection script requirement:
+### Fissure detection script requirement:
 
 The requirements file can be found inside the main file, 
 you can run it using the command : pip install -r requirements.txt
