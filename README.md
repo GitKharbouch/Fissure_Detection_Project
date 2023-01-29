@@ -31,6 +31,4 @@ Critic(x,y,w,h,j) is a function that takes five arguments (Coordinates, dimensio
 Notify() is a function that sends a windows notification and an email to notify that a critic fissure had been detected.
 
 
-# Data
 
-the data file contains a test video and the excel file containing coordinates and time of each fissure.
