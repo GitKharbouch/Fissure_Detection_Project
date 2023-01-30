@@ -14,7 +14,7 @@ model = torch.hub.load('yolov5-master', 'custom',
 path='yolov5-master\models\MODEL_V3.pt', source='local',force_reload=True)    #loading the custom model
 
 
-cap = cv.VideoCapture(r'C:\Users\youss\OneDrive\Pictures\Camera Roll\vid.mp4')
+cap = cv.VideoCapture(0)
 while True:
     # Capture frame-by-frame
     ret, frame = cap.read()
